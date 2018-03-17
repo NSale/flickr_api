@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 2.5em;
+	width: 50%;
+	text-align: center;
+
+	h1 {
+		margin-bottom: 1em;
+	}
+
+	hr { margin: 10px 0; }
+
+	input[type="text"] { width: 147px; }
+
+	.edit_input {
+		float: left;
+		margin-right: 10px;
+	}
+	#row_input { width: 40px; }
+
+	.user-table {
+		width: 100%;
+		text-align: center;
+		margin: .5em auto;
+
+		thead {
+			background: #000;
+			color: #fff;
+		}
+
+		td {
+			border: 1px solid #000;
+		}
+
+	}
+}
